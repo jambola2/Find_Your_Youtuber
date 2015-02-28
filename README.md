@@ -12,3 +12,8 @@ To work on the product you should first download the source to your machine. Aft
 
 #Versions 
 The way we do versions is through the type of improvement, we jump by 5 for a major improvement, we jump up 1 if its a simple, such as several bugs, and we jump by 1 in the first number if its a completly new version I.E Beta(0) to Alpha(1) to Stable(2) The intial version of this product will be 0.0.1
+
+#Becoming a  chiarman on  realeser board
+If you submit atleast 15 bugs or a improvements that is super impressive  I will consider making you a releaser. essentially it means you have proven yourself righteous to be able to review other peoples code and merge them. As I am a college student it might not always be possible for me to complete merge request in a timely manner. 
+what the releser board esstnaily is a idea of mine where everyone on the board reviews merge request and than submits a survey to merge or not merge. 
+
