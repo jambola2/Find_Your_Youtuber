@@ -1,3 +1,5 @@
+#Development by the creator is on halt for the time being because of upcoming midterms. However, you can continue to push in merge request if you find something you want to work on. 
+
 # FindYourYoutuber
 This is a algorithm that will find the Youtuber that you might want to watch
 I made this to specifically focus on learning how to use Object Oriented Programming, but I also wanted to make a app that people could use world wide. 
