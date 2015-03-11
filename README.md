@@ -1,6 +1,6 @@
 
 # FindYourYoutuber
-This is a algorithm that will find the Youtuber that you might want to watch
+This is a tool that will find the Youtuber that you might want to watch
 I made this to specifically focus on learning how to use Object Oriented Programming, but I also wanted to make a app that people could use world wide. 
 # Users 
 Beta Testing can be done through .py You will need python 2.7 installed and basic knowledge of how to run a python program. Later on a .exe will be released for testing. 
