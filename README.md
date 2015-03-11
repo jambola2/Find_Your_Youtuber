@@ -1,3 +1,10 @@
+#User release dates for non-gui version of FindYourYoutuber :) 
+#Raspberry Pi-Estimated Non-Gui release Alpha version- April 2nd 2015
+#PC- Estimated Non-Gui release Alpha Version - April 2nd 2015
+#Mac- Estimated Non-Gui Release NEVER! (Unless a mac user is willing to help build a mac version) 
+#All other linux distro release Aplpha version- TBA
+
+
 
 # FindYourYoutuber
 This is a tool that will find the Youtuber that you might want to watch
