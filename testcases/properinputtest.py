@@ -3,6 +3,7 @@
 
 # This is a test case for the new algorithms to possible be implemented into in due time.
 # if you manage to do so please take note of it and post it in issues.
+#intended to fix the problem of lack of input validation
 import time 
 def main():
 	print "Please enter the category that you would like to enter"
