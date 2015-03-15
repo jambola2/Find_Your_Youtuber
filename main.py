@@ -2,7 +2,6 @@
 
 # Created under the MIT License
 
-
 # Description
 # This will use the users information that is given to try and find the best youtuber for them to watch.
 
@@ -28,11 +27,11 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 #THE SOFTWARE.
 
-
+import webbrowser
 import time
 print "Welcome to what Youtuber should I watch? Version NON-GUI 0.0.1 Stable "
 
-#These are the varaiblrs that will be key to compiling users score
+#These are the variables that will be key to compiling users score
 
 def Main():
     # Gets the key steps for the algorithm, then compiles them in a algorithm to get the result.
