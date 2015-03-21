@@ -23,13 +23,25 @@ import webbrowser
 import time
 print "Welcome to what Youtuber should I watch? Version NON-GUI 0.0.1 Stable "
 #These are the variables that will be key to compiling users score
+
 def Main():
-# Gets the key steps for the algorithm, then compiles them in a algorithm to get the result.
-getGenre = raw_input("What genre do you prefer from the following: comedy, gaming").lower()
-if getGenre == "comedy":
-FindComedy()
-if getGenre == "gaming":
-FindGamers()
+	print "Please enter the category that you would like to enter"
+	selection  = raw_input()
+	if selection == "comedy".lower() or selection ==  "gaming".lower():
+		if selection == "comedy".lower():
+				print "Going to comedy!"
+				time.sleep(1) # Thos is so that the program looks neat for the user, even though its NON-GUI  want it to look as neat as possible 
+				FindComedy() # Goes to comedy module 
+        if selection == "gaming".lower():
+			print "going to gaming!"
+			time.sleep(1)
+			FindGamers()
+	elif selection != "comedy" .lower()  and  selection != "gaming".lower():
+		print "UH OH, you typed",selection, "You were to typein comedy or gaming please try again"
+		time.sleep(1)
+		Main()
+		
+
 # These are the def files each will be used to find the persons favorite youtuber
 def FindComedy():
 HigaScore = -10 #Initial Value for the Youtuber Nigahiga
