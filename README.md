@@ -1,7 +1,3 @@
-#User release dates for non-gui version of FindYourYoutuber :) 
-#Raspberry Pi-Estimated Non-Gui release Alpha version- April 2nd 2015
-#PC- Estimated Non-Gui release Alpha Version - April 2nd 2015
-
 
 # FindYourYoutuber
 This is a tool that will find the Youtuber that you might want to watch
@@ -13,9 +9,11 @@ Beta Testing can be done through .py You will need python 2.7 installed and basi
 The BETA 0.0.1 version of NON-GUI Find Your Youtuber will be released by Sunday, Febuary 28th, 2015. Furthermore, please be aware that the code might contain some bugs. I am not perfect, but this is your perfect time to work on bugs and submit merge request. We need to work on improving it as much as possible as I plan to release Find Your Youtuber Alpha Version 0.0.2 March 14th 2015. 
 
 #Developer | how to work on it
-To work on the product you should first download the source to your machine. Aftherwards, work on bugs that you find or improvements you want to add. REMEMBER that this version is non-gui. If you wish to work on the GUI version, I plan to release GUI Version 0.0.1 sometime in March or April. Once you made your contributions, submit your code via merge request. I will review code and heavily test it and mainly try and break your code.(How debugging works)  By doing this I will ensure your code is right for the project. If I deny your code please do not feel insulted, work on improving it and resubmit a merge reuqest. 
+Step 1--> Fork Respritory
+Step 2--> Download source to your machine
+Step 3--> Go to Issues page
+Step 4--> If you find a issue or improvement that is open than please contact our developers on coinchat.org and room #findyouryoutuber(Our offical means of communication) or pm us on there, leaders are vectrex and PROgrammer. 
+If you are old fashioned you can email us me at austinredacted@gmail.com, your message will be forwarded to all the other leaders and you will get a reply in due time. 
 
-#Versions 
-The way we do versions is through the type of improvement, we jump by 5 for a major improvement, we jump up 1 if its a simple, such as several bugs, and we jump by 1 in the first number if its a completly new version I.E Beta(0) to Alpha(1) to Stable(2) The intial version of this product will be 0.0.1
-
+Keep note that although we accept merge request, you are HIGHLY much more likely to see your code get pushed to the product if you discuss with us your idea. Don't be shy, and do not waste your time. We would love to see your code make a contribution to the product. 
 
