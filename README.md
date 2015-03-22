@@ -19,5 +19,5 @@ Keep note that although we accept merge request, you are HIGHLY much more likely
 
 
 Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
-                             Vectrex  also Vectrex on coinchat.org 
+                             Vectrex who is also Vectrex on coinchat.org (Not avalible here for a month)
 
