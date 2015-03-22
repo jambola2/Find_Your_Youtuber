@@ -17,3 +17,7 @@ If you are old fashioned you can email us me at austinredacted@gmail.com, your m
 
 Keep note that although we accept merge request, you are HIGHLY much more likely to see your code get pushed to the product if you discuss with us your idea. Don't be shy, and do not waste your time. We would love to see your code make a contribution to the product. 
 
+
+Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
+                             Vectrex  also Vectrex on coinchat.org 
+
