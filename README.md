@@ -21,3 +21,9 @@ Keep note that although we accept merge request, you are HIGHLY much more likely
 Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
                              Vectrex who is also Vectrex on coinchat.org (Not avalible here for a month)
 
+#Contributers
+No matter what you commit, whether it be documentation or code you will be honered for doing so. 
+
+1. Austin G - austinprog 
+2. (Do not know) - Vectrex
+3. (Do not know) - Verrac
