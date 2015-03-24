@@ -1,9 +1,7 @@
 
 # FindYourYoutuber
-This is a tool that will find the Youtuber that you might want to watch
-I made this to specifically focus on learning how to use Object Oriented Programming, but I also wanted to make a app that people could use world wide. 
-# Users 
-Beta Testing can be done through .py You will need python 2.7 installed and basic knowledge of how to run a python program. Later on a .exe will be released for testing. 
+This is a tool built specifically for devices such as the Raspberry Pi, and other micro computers. It will display to the person a quiz to find a youtuber to watch. 
+
 
 # Developer 
 The BETA 0.0.1 version of NON-GUI Find Your Youtuber will be released by Sunday, Febuary 28th, 2015. Furthermore, please be aware that the code might contain some bugs. I am not perfect, but this is your perfect time to work on bugs and submit merge request. We need to work on improving it as much as possible as I plan to release Find Your Youtuber Alpha Version 0.0.2 March 14th 2015. 
