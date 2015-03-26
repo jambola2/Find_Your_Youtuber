@@ -1,4 +1,5 @@
-# This software idea was originally created by Austin G, and major contributions were made by Vectrex at the early stages of this program 
+# This software idea was originally created by Austin G, 
+#and major contributions were made by Vectrex at the early stages of this program 
 
 #This is free and unencumbered software released into the public domain.
 #Anyone is free to copy, modify, publish, use, compile, sell, or
