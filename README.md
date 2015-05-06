@@ -1,10 +1,7 @@
 
 # FindYourYoutuber
-This is a tool built specifically for devices such as the Raspberry Pi, and other micro computers. It will display to the person a quiz to find a youtuber to watch. 
-
-
-# Developer 
-The BETA 0.0.1 version of NON-GUI Find Your Youtuber will be released by Sunday, Febuary 28th, 2015. Furthermore, please be aware that the code might contain some bugs. I am not perfect, but this is your perfect time to work on bugs and submit merge request. We need to work on improving it as much as possible as I plan to release Find Your Youtuber Alpha Version 0.0.2 March 14th 2015. 
+V 0.0.1-Open Beta- Current stage of application. 
+This is a simple quiz for someone to find a Youtuber.  as of right now, V 0.0.2 is planned to be released sometime in May. Once released, it should be availible in the Raspian Store, we will also release it on SourceForge. This program has a very simple command line gui, simply because the founder of this project was to lazy to build one. However, if you want to see a GUI for this project, we might entertain the idea. The founder of this application made it, half to get familarized with managing a Github Project, and half because he wants to make something for people to download. He is also working on many other projects, and will fix bugs when they arise and are reported, but he might not push updates quickly. Updates will rely solely on demand, so if you want more updates, you can either bug the founder, or submit merge requests. However, the founder does vow to push V 0.0.2 of this application. No gaurentees of V 0.0.3, that will solely rely on the amount of downloads it gets on Sourceforge and Raspbian.
 
 #Developer | how to work on it
 Step 1--> Fork Respritory
@@ -13,15 +10,15 @@ Step 3--> Go to Issues page
 Step 4--> If you find a issue or improvement that is open than please contact our developers on coinchat.org and room #findyouryoutuber(Our offical means of communication) or pm us on there, leaders are vectrex and PROgrammer. 
 If you are old fashioned you can email us me at austinredacted@gmail.com, your message will be forwarded to all the other leaders and you will get a reply in due time. 
 
-Keep note that although we accept merge request, you are HIGHLY much more likely to see your code get pushed to the product if you discuss with us your idea. Don't be shy, and do not waste your time. We would love to see your code make a contribution to the product. 
+Keep note that although we accept merge request, you are HIGHLY much more likely to see your code get pushed to the product if you discuss with us your idea. Don't be shy, We would love to see your code make a contribution to the product. This project was built by beginners, for beginners. Some projects on Github can be taunting, but this is a excellent program for a developer to get some code contributed. Keep in mind, we expect, clean beautiful code. 
 
 
-Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
-                             Vectrex who is also Vectrex on coinchat.org (Not avalible here for a month)
+Active Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
+                             
 
-#Contributers
-No matter what you commit, whether it be documentation or code you will be honered for doing so. 
+#Contributers Hall of Fame 
+No matter what you commit, whether it be documentation or code you will be honered on The Contributers Hall of Fame. You do not have to disclose your name. Username or Pen Name is acceptable 
 
-1. Austin G - austinprog 
-2. (Do not know) - Vectrex
-3. (Do not know) - Verrac
+1. Austinprog 
+2. Vectrex
+3. Verrac
