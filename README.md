@@ -20,5 +20,5 @@ Active Maintainers of project are:  Austin G, AKA austinprog here, AKA PROgramme
 No matter what you commit, whether it be documentation or code you will be honered on The Contributers Hall of Fame. You do not have to disclose your name. Username or Pen Name is acceptable 
 
 1. Austinprog 
-2. Vec T-Rex
+2. Vectrex
 3. Verrac
