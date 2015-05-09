@@ -13,12 +13,12 @@ Or, if you are old fashioned you can email us me at austinredacted@gmail.com, yo
 Keep note that although we accept merge requests, you are MUCH more likely to see your code get pushed to the product if you discuss with us your idea. Don't be shy! We would love to see your code make a contribution to the product. This project was built by beginners, for beginners. Some projects on Github can be taunting, but this is a excellent program for a developer to get some code contributed. Keep in mind, we expect, clean beautiful code. (We can be a bit lenient with this)
 
 
-Active Maintainers of project are:  Austin G, ake austinprog on here and, aka programmer on coinchat.org 
+Active Maintainers of project are:  Austin G, AKA austinprog here, AKA PROgrammer on Coinchat.org
                              
 
 #Contributers Hall of Fame 
 No matter what you commit, whether it be documentation or code you will be honered on The Contributers Hall of Fame. You do not have to disclose your name. Username or Pen Name is acceptable 
 
 1. Austinprog 
-2. Vectrex
+2. Vec T-Rex
 3. Verrac
