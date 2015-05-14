@@ -21,11 +21,12 @@
 #THE SOFTWARE.
 import webbrowser
 import time
-print "Welcome to what Youtuber should I watch? Version NON-GUI 0.0.1 Stable "
+print "Welcome to Find Your Youtuber! Version 0.1.1 (Unsupported)"
+print "This version of the program is unstable, broken, and unsuported. There is MANY problems with the code, So we urge you to use the current version."
 #These are the variables that will be key to compiling users score
 
 def Main():
-	print "Please enter the category that you would like to enter"
+	print "Please enter the category of youtuber you want to watch."
 	selection  = raw_input()
 	if selection == "comedy".lower() or selection ==  "gaming".lower():
 		if selection == "comedy".lower():
@@ -37,7 +38,7 @@ def Main():
 			time.sleep(1)
 			FindGamers()
 	elif selection != "comedy" .lower()  and  selection != "gaming".lower():
-		print "UH OH, you typed",selection, "You were to typein comedy or gaming please try again"
+		print "UH OH, you typed",selection, "You were supposed to type in comedy or gaming, please try again."
 		time.sleep(1)
 		Main()
 		
