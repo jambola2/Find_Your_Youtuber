@@ -158,7 +158,7 @@ if UsersScore3 == x:
 print ThirdOput
 if UsersScore4 == x:
 print FourthOput
-conttoend = raw_input("You havbe finish the product, please type 1 to exit")
+conttoend = raw_input("You have finishe the product, please type 1 to exit")
 if conttoend == 1:
 StopProgram()
 #The command the physically stops the program
