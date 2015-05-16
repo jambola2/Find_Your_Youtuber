@@ -40,7 +40,7 @@ root = Tk()
 
 app = Main_Frame(root)
 root.title("FindYourYoutuber V0.1.2-Non-Production")
-root.geometry('600x600')  # Sets the size of the program
-root.maxsize(600, 600)  #maximum size for program
+root.geometry('630x620')  # Sets the size of the program
+root.maxsize(630, 620)  #maximum size for program
 root.mainloop()  # Essentially Starts the program
 
