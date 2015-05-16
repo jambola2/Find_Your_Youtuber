@@ -2,7 +2,6 @@ from Tkinter import *
 
 import webbrowser
 
-
 class Main_Frame:
 
     def __init__(self, master):
