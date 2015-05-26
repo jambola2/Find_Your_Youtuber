@@ -63,4 +63,4 @@ if __name__ == "__main__":
     root.geometry('630x620')  # Sets the size of the program
     root.maxsize(630, 620)  # maximum size for program
     root.mainloop()  # Essentially Starts the program
-    root.bg = "red"
+    root.bg = "redd"
