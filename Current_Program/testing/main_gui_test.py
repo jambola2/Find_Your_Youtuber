@@ -110,84 +110,19 @@ class QuizTime(tk.Frame):
 	global JennaMarbles
 	global McJuggerNuggets 
 	global Pewdiepie
-	if x == 0:
-		
-		self.QuestionPrompt.config(text=self.ListofQuestions[0])
-		NigaHiga += 1 
-	if x == 1:
-		self.QuestionPrompt.config(text=self.ListofQuestions[1])
-		NigaHiga += 1 
-		
-	if x == 2:
-		self.QuestionPrompt.config(text=self.ListofQuestions[2])
-		NigaHiga += 1 
-	if x == 3:
-		self.QuestionPrompt.config(text=self.ListofQuestions[3])
-		NigaHiga += 1
-	if x ==4:
-		self.QuestionPrompt.config(text=self.ListofQuestions[4])
-		NigaHiga += 1
-        if x ==5: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[5])
-		Smosh += 1 
-	if x == 6:
-		self.QuestionPrompt.config(text=self.ListofQuestions[6])
-		Smosh += 1 
-	if x == 7:
-		self.QuestionPrompt.config(text=self.ListofQuestions[7])
-		Smosh += 1 
-	if x == 8:
-		self.QuestionPrompt.config(text=self.ListofQuestions[8])
-		Smosh += 1 
-	if x == 9:
-		self.QuestionPrompt.config(text=self.ListofQuestions[9])
-		Smosh += 1 
-	if x == 10:
-		self.QuestionPrompt.config(text=self.ListofQuestions[10])
-		JennaMarbles += 1 
-	if x == 11:
-		self.QuestionPrompt.config(text=self.ListofQuestions[11])
-		JennaMarbles += 1 
-	if x == 12:
-		self.QuestionPrompt.config(text=self.ListofQuestions[12])
-		JennaMarbles += 1 
-	if x == 13:
-		self.QuestionPrompt.config(text=self.ListofQuestions[13])
-		JennaMarbles += 1 
-	if x == 14: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[14])
+	
+	self.QuestionPrompt.config(text=self.ListofQuestions[x])
+	if x < 5:
+		NigaHiga +=1
+	elif x < 10:
+		Smosh += 1
+	elif x < 15:
 		JennaMarbles += 1
-	if x == 15:
-		self.QuestionPrompt.config(text=self.ListofQuestions[15])
-		McJuggerNuggets += 1 
-	if x == 16: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[16])
-		McJuggerNuggets += 1 
-	if x == 17:
-		self.QuestionPrompt.config(text=self.ListofQuestions[17])
-		McJuggerNuggets += 1 
-	if x == 18:
-		self.QuestionPrompt.config(text=self.ListofQuestions[18])
-		McJuggerNuggets += 1 
-	if x == 19:
-		self.QuestionPrompt.config(text=self.ListofQuestions[19])
-		McJuggerNuggets += 1 
-	if x == 20:
-		self.QuestionPrompt.config(text=self.ListofQuestions[20])
-		Pewdiepie += 1
-	if x == 21:
-		self.QuestionPrompt.config(text=self.ListofQuestions[21])
-		Pewdiepie += 1 
-	if x == 22:
-		self.QuestionPrompt.config(text=self.ListofQuestions[22])
-		Pewdiepie += 1 
-	if x == 23:
-		self.QuestionPrompt.config(text=self.ListofQuestions[23])
-		Pewdiepie += 1 
-	if x == 24:
-		self.QuestionPrompt.config(text=self.ListofQuestions[24])
-		Pewdiepie += 1 
-    
+	elif x < 20:
+		McJuggerNuggets += 1
+	else:
+		PewDiePie += 1
+
     def WhenNoButton_Clicked(self):
 	global x
 	x += 1
@@ -196,85 +131,19 @@ class QuizTime(tk.Frame):
 	global JennaMarbles
 	global McJuggerNuggets 
 	global Pewdiepie
-	if x == 0:
-		
-		self.QuestionPrompt.config(text=self.ListofQuestions[0])
-		NigaHiga -= 1 
-	if x == 1:
-		self.QuestionPrompt.config(text=self.ListofQuestions[1])
-		NigaHiga -= 1 
-		
-	if x == 2:
-		self.QuestionPrompt.config(text=self.ListofQuestions[2])
-		NigaHiga -= 1 
-	if x == 3:
-		self.QuestionPrompt.config(text=self.ListofQuestions[3])
-		NigaHiga -= 1
-	if x ==4:
-		self.QuestionPrompt.config(text=self.ListofQuestions[4])
-		NigaHiga -= 1
-        if x ==5: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[5])
-		Smosh -= 1 
-	if x == 6:
-		self.QuestionPrompt.config(text=self.ListofQuestions[6])
-		Smosh -= 1 
-	if x == 7:
-		self.QuestionPrompt.config(text=self.ListofQuestions[7])
-		Smosh -= 1 
-	if x == 8:
-		self.QuestionPrompt.config(text=self.ListofQuestions[8])
-		Smosh -= 1 
-	if x == 9:
-		self.QuestionPrompt.config(text=self.ListofQuestions[9])
-		Smosh -= 1 
-	if x == 10:
-		self.QuestionPrompt.config(text=self.ListofQuestions[10])
-		JennaMarbles -= 1 
-	if x == 11:
-		self.QuestionPrompt.config(text=self.ListofQuestions[11])
-		JennaMarbles -= 1 
-	if x == 12:
-		self.QuestionPrompt.config(text=self.ListofQuestions[12])
-		JennaMarbles -= 1 
-	if x == 13:
-		self.QuestionPrompt.config(text=self.ListofQuestions[13])
-		JennaMarbles -= 1 
-	if x == 14: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[14])
+	
+	self.QuestionPrompt.config(text=self.ListofQuestions[x])
+	if x < 5:
+		NigaHiga -=1
+	elif x < 10:
+		Smosh -= 1
+	elif x < 15:
 		JennaMarbles -= 1
-	if x == 15:
-		self.QuestionPrompt.config(text=self.ListofQuestions[15])
-		McJuggerNuggets -= 1 
-	if x == 16: 
-		self.QuestionPrompt.config(text=self.ListofQuestions[16])
-		McJuggerNuggets -= 1 
-	if x == 17:
-		self.QuestionPrompt.config(text=self.ListofQuestions[17])
-		McJuggerNuggets -= 1 
-	if x == 18:
-		self.QuestionPrompt.config(text=self.ListofQuestions[18])
-		McJuggerNuggets -= 1 
-	if x == 19:
-		self.QuestionPrompt.config(text=self.ListofQuestions[19])
-		McJuggerNuggets -= 1 
-	if x == 20:
-		self.QuestionPrompt.config(text=self.ListofQuestions[20])
-		Pewdiepie -= 1
-	if x == 21:
-		self.QuestionPrompt.config(text=self.ListofQuestions[21])
-		Pewdiepie -= 1 
-	if x == 22:
-		self.QuestionPrompt.config(text=self.ListofQuestions[22])
-		Pewdiepie -= 1 
-	if x == 23:
-		self.QuestionPrompt.config(text=self.ListofQuestions[23])
-		Pewdiepie -= 1 
-	if x == 24:
-		self.QuestionPrompt.config(text=self.ListofQuestions[24])
-		Pewdiepie -= 1 
-								
-		
+	elif x < 20:
+		McJuggerNuggets -= 1
+	else:
+		PewDiePie -= 1
+
 class PageTwo(tk.Frame):
 
     def __init__(self, parent, controller):
