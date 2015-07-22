@@ -3,12 +3,16 @@ import tkFont
 from Tkinter import *
 import webbrowser
 
-NigaHiga=0
-Smosh=0
-JennaMarbles=0
-McJuggerNuggets=0 
-Pewdiepie=0
-x=-1
+class Scores(object):
+
+	NigaHiga=0
+	Smosh=0
+	JennaMarbles=0
+	McJuggerNuggets=0
+	Pewdiepie=0
+
+Scores = Scores() 
+x=-1 #counter variable for later
 TITLE_FONT = ("Helvetica", 18, "bold")
 
 # Credits for Tkinter frame architecture switcher to JonrSharpe  http://stackoverflow.com/users/3001761/jonrsharpe
@@ -26,7 +30,7 @@ class ManagementofFrames(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        for F in (Home_Page, QuizTime, PageTwo): # This is essnentially saying, for every item in the group, frame is equal to it, and its container.
+        for F in (Home_Page, QuizTime, UsersResults): # This is essnentially saying, for every item in the group, frame is equal to it, and its container.
             frame = F(container, self)
             self.frames[F] = frame
             # put all of the pages in the same location;
@@ -85,75 +89,98 @@ class QuizTime(tk.Frame):
 			   "Would you watch a youtuber whos videos consist of him arguing with his pyschotic dad who destroys his stuff",
 			   "Would you watch a youtuber who has a video titled? --> Jessee reacts to Halo Helmet Destruction",
 			   "Would you watch a youtuber who fights all the time with his brother?",
-                           "Would you watch a youtuber who has a survival series of him being kicked out?"
+               "Would you watch a youtuber who has a survival series of him being kicked out?",
 			   "Would you watch a youtuber who whines and complains alot in his videos?",
 			    # Below is Pewdiepie questions
 			   "Would you watch a youtuber who makes mainly gaming videos?",
 			   "Would you watch a youtuber who makes very odd statements?",
 			   "Would you watch a youutber who has a video titled? --> VIKING BALLS (Full Sail)",
-                           "Would you watch a youtuber who makes videos with his girlfriend periodically?",
+               "Would you watch a youtuber who makes videos with his girlfriend periodically?",
 			   "Would you watch a youtuber who has a video titled? --> HOW TO BE COOL FOR SUMMER"]
-	YesButton = Button(self,text="Yes", command=self.WhenYesButton_Clicked)
-	NoButton = Button(self, text="No", command=self.WhenNoButton_Clicked)
+	self.YesButton = Button(self,text="Yes",height = 10, width = 30, command=self.WhenYesButton_Clicked)
+	self.NoButton = Button(self, text="No",height = 10, width = 30, command=self.WhenNoButton_Clicked)
+	self.ResultsNotification = tk.Label(self, text="When results are ready, the button will activate and become red")
+	self.GotoResults = Button(self, text="Results are ready",command=lambda: controller.show_frame(UsersResults),height = 5, width = 20)
 	# Below is the Layout, we are using Grid once again.
 	QuizHeader.grid(row=0, column=1)
-	self.QuestionPrompt.grid(row=1, column=1,  padx=(0, 150), pady=(400, 0))
-	YesButton.grid(row=1,column=1, padx=(0,150), pady=(100,0))
-	NoButton.grid(row=2,column=1, padx=(0,200), pady=(200,0))
-
+	self.QuestionPrompt.grid(row=1, column=1)
+	self.YesButton.grid(row=3,column=1, padx=(0,100), pady=(100,0))
+	self.NoButton.grid(row=4,column=1, padx=(0,100), pady=(100,0))
+   	self.ResultsNotification.grid(row=5,column=1, padx=(0,100), pady=(100,0))
+   	self.GotoResults.grid(row=6,column=1)
+   	self.GotoResults.configure(state=DISABLED)
 	
     def WhenYesButton_Clicked(self):
 	global x
 	x += 1
-	global NigaHiga
-	global Smosh
-	global JennaMarbles
-	global McJuggerNuggets 
-	global Pewdiepie
 	
-	self.QuestionPrompt.config(text=self.ListofQuestions[x])
-	if x < 5:
-		NigaHiga +=1
+	
+	
+	if x < 4:
+		Scores.NigaHiga +=1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		
+		
 	elif x < 10:
-		Smosh += 1
+		Scores.Smosh += 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		
 	elif x < 15:
-		JennaMarbles += 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.JennaMarbles += 1
+		
 	elif x < 20:
-		McJuggerNuggets += 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.McJuggerNuggets += 1
+		
+		 
+	elif x <= 23: # 24 because it starts at 0 
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.Pewdiepie += 1
+		
 	else:
-		PewDiePie += 1
+		self.YesButton.configure(state=DISABLED)
+		self.NoButton.configure(state=DISABLED)
+		self.GotoResults.configure(state=NORMAL)
 
-    def WhenNoButton_Clicked(self):
+
+    def WhenNoButton_Clicked(object):
 	global x
 	x += 1
-	global NigaHiga
-	global Smosh
-	global JennaMarbles
-	global McJuggerNuggets 
-	global Pewdiepie
 	
-	self.QuestionPrompt.config(text=self.ListofQuestions[x])
-	if x < 5:
-		NigaHiga -=1
+	
+	if x < 4:
+		Scores.NigaHiga -=1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		
 	elif x < 10:
-		Smosh -= 1
+		Scores.Smosh -= 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		
 	elif x < 15:
-		JennaMarbles -= 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.JennaMarbles -= 1
+		
 	elif x < 20:
-		McJuggerNuggets -= 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.McJuggerNuggets -= 1
+	
+	elif x <= 23: # 24 because it starts at 0 
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
+		Scores.Pewdiepie -= 1
+	
 	else:
-		PewDiePie -= 1
+		self.YesButton.configure(state=DISABLED)
+		self.NoButton.configure(state=DISABLED)
+		self.GotoResults.configure(state=NORMAL)
+		print Scores.Pewdiepie
 
-class PageTwo(tk.Frame):
-
-    def __init__(self, parent, controller):
-        tk.Frame.__init__(self, parent)
-        label = tk.Label(self, text="This is page 2", font=TITLE_FONT)
-        label.pack(side="top", fill="x", pady=10)
-        button = tk.Button(self, text="Go to the start page",
-                           command=lambda: controller.show_frame(StartPage))
-        button.pack()
-
+class UsersResults(tk.Frame):
+	def __init__(self, parent, controller):
+    		tk.Frame.__init__(self, parent)
+    		test = Button(self, text=x)
+    		test.grid(row=1,column=1)
+       	
 
 if __name__ == "__main__":
     app = ManagementofFrames()
