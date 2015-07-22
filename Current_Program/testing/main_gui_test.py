@@ -114,42 +114,36 @@ class QuizTime(tk.Frame):
 	global x
 	x += 1
 	
-	
-	
 	if x < 4:
 		Scores.NigaHiga +=1
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
-		
 		
 	elif x < 10:
 		Scores.Smosh += 1
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		
 	elif x < 15:
+		Scores.JennaMarbles += 1 #Trying to always put the score increment first, in case calling the config doesn't increment score
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
-		Scores.JennaMarbles += 1
 		
 	elif x < 20:
-		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		Scores.McJuggerNuggets += 1
-		
-		 
-	elif x <= 23: # 24 because it starts at 0 
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
-		Scores.Pewdiepie += 1
 		
-	else:
-		self.YesButton.configure(state=DISABLED)
-		self.NoButton.configure(state=DISABLED)
-		self.GotoResults.configure(state=NORMAL)
-
+	else: 
+		Scores.Pewdiepie += 1
+		if x == 24:
+			self.YesButton.configure(state=DISABLED)
+			self.NoButton.configure(state=DISABLED)
+			self.GotoResults.configure(state=NORMAL)
+		else:
+			self.QuestionPrompt.config(text=self.ListofQuestions[x])
 
     def WhenNoButton_Clicked(object):
 	global x
 	x += 1
 	
-	
-	if x < 4:
+	if x < 5:
 		Scores.NigaHiga -=1
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		
@@ -158,22 +152,22 @@ class QuizTime(tk.Frame):
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		
 	elif x < 15:
-		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		Scores.JennaMarbles -= 1
+		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		
 	elif x < 20:
-		self.QuestionPrompt.config(text=self.ListofQuestions[x])
 		Scores.McJuggerNuggets -= 1
-	
-	elif x <= 23: # 24 because it starts at 0 
 		self.QuestionPrompt.config(text=self.ListofQuestions[x])
-		Scores.Pewdiepie -= 1
 	
 	else:
-		self.YesButton.configure(state=DISABLED)
-		self.NoButton.configure(state=DISABLED)
-		self.GotoResults.configure(state=NORMAL)
-		print Scores.Pewdiepie
+		Scores.Pewdiepie -= 1
+		if x == 24: #24 is the last question
+			self.YesButton.configure(state=DISABLED)
+			self.NoButton.configure(state=DISABLED)
+			self.GotoResults.configure(state=NORMAL)
+			print Scores.Pewdiepie #I assume this is a debugging statement?
+		else:
+			self.QuestionPrompt.config(text=self.ListofQuestions[x])
 
 class UsersResults(tk.Frame):
 	def __init__(self, parent, controller):
