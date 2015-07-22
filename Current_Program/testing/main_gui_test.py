@@ -111,7 +111,6 @@ class QuizTime(tk.Frame):
 	global McJuggerNuggets 
 	global Pewdiepie
 	
-	self.QuestionPrompt.config(text=self.ListofQuestions[x])
 	if x < 5:
 		NigaHiga +=1
 	elif x < 10:
@@ -122,6 +121,9 @@ class QuizTime(tk.Frame):
 		McJuggerNuggets += 1
 	else:
 		PewDiePie += 1
+		
+	self.QuestionPrompt.config(text=self.ListofQuestions[x])
+
 
     def WhenNoButton_Clicked(self):
 	global x
@@ -132,7 +134,6 @@ class QuizTime(tk.Frame):
 	global McJuggerNuggets 
 	global Pewdiepie
 	
-	self.QuestionPrompt.config(text=self.ListofQuestions[x])
 	if x < 5:
 		NigaHiga -=1
 	elif x < 10:
@@ -143,6 +144,8 @@ class QuizTime(tk.Frame):
 		McJuggerNuggets -= 1
 	else:
 		PewDiePie -= 1
+		
+	self.QuestionPrompt.config(text=self.ListofQuestions[x])
 
 class PageTwo(tk.Frame):
 
