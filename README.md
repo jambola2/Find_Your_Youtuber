@@ -12,3 +12,4 @@ Vectrex(developer)
 Jambola2(developer) 
 Verrac(Documentation Writer| Now left for other oppurtunies)
 
+This is a perfect project for someone new to coding to work on! You can make a big difference in this program too! The original team has agreed to stick to the Alpha launch, however afterward 90% of the original team will depart to work on their own programs or different projects altogether. After Alpha, their may not be many updates unless we get new developers in who want to make a difference! So don't be heistent to ask, comment on here or make contact with Team Lead Austin(programmer) on coinchat.org, PM username programmer 
