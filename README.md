@@ -17,8 +17,7 @@ Austin(current project maintainer)
  
  
 
-
-Original Team: 
+#Original Team: 
 
 Austin (developer)
 Vectrex(developer)
